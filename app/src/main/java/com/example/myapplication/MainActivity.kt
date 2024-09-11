@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         btn.setOnClickListener{
             val name=username.text.toString()
             val pass=password.text.toString()
-            output.text="My Username is $name and Password is $pass"
+            output.text="Your Username is $name and Password is $pass"
         }
     }
     override fun onStart(){
