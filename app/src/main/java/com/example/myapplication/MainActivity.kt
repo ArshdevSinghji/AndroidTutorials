@@ -16,9 +16,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        val btn=findViewById<Button>(R.id.button2)
-        btn.setOnClickListener{
-            Toast.makeText(this,"Welcome Back",Toast.LENGTH_LONG).show()
-        }
+
     }
 }

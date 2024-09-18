@@ -1,54 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
-    android:gravity="center"
-    android:orientation="vertical"
     android:padding="20dp">
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="MYNTRA"
-        android:textAlignment="center"
-        android:textSize="23dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="One stop shopping destinantion"
-        android:textAlignment="center"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="enter your username" />
-
-    <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="password" />
-
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="false"
+        android:text="1" />
     <Button
         android:id="@+id/button2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="LOGIN" />
+        android:layout_toRightOf="@+id/button1"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="false"
+
+        android:text="2" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="false"
+
+        android:text="3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+
+        android:text="4" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button4"
+        android:layout_below="@+id/button2"
+
+        android:text="5" />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button5"
+        android:layout_below="@+id/button3"
+
+    android:text="6" />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+
+        android:text="7" />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button7"
+        android:layout_below="@+id/button5"
+
+        android:text="8" />
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button8"
+        android:layout_below="@+id/button6"
+
+        android:text="9" />
+
+    <Button
+        android:id="@+id/buttonPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button7"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/buttonMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/buttonPlus"
+        android:layout_below="@+id/button8"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/buttonMultiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/buttonMinus"
+        android:layout_below="@+id/button9"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/buttonDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonPlus"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/buttonEquals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/buttonDivide"
+        android:layout_below="@+id/buttonMinus"
+        android:text="=" />
+
+    <Button
+        android:id="@+id/buttonBackspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/buttonEquals"
+        android:layout_below="@+id/buttonMultiply"
+        android:text="Backspace" />
 
 
-</LinearLayout>
+
+</RelativeLayout>
