@@ -83,23 +83,24 @@
         android:id="@+id/buttonPlus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button7"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_above="@+id/button6"
         android:text="+" />
 
     <Button
         android:id="@+id/buttonMinus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/buttonPlus"
-        android:layout_below="@+id/button8"
+        android:layout_toRightOf="@+id/button6"
+        android:layout_below="@+id/buttonPlus"
         android:text="-" />
 
     <Button
         android:id="@+id/buttonMultiply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/buttonMinus"
-        android:layout_below="@+id/button9"
+        android:layout_toRightOf="@+id/button9"
+        android:layout_below="@+id/buttonMinus"
         android:text="*" />
 
     <Button
@@ -113,15 +114,14 @@
         android:id="@+id/buttonEquals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/buttonDivide"
-        android:layout_below="@+id/buttonMinus"
+        android:layout_toRightOf="@+id/button9"
+        android:layout_below="@+id/buttonMultiply"
         android:text="=" />
 
     <Button
         android:id="@+id/buttonBackspace"
-        android:layout_width="wrap_content"
+        android:layout_width="263dp"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/buttonEquals"
         android:layout_below="@+id/buttonMultiply"
         android:text="Backspace" />
 
