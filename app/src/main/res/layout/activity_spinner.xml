@@ -4,29 +4,28 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/editTextText"
         android:layout_width="match_parent"
-        android:layout_height="118dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         android:text="Name" />
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="match_parent"
-        android:layout_height="135dp"
-        android:ems="10"
-        android:inputType="textPassword" />
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="118dp"/>
-
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </LinearLayout>
